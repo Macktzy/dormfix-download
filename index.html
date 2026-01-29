@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download DormFix</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1A237E 0%, #4A148C 100%);
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            max-width: 500px;
+            width: 90%;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            /* Replace with your icon later if you want */
+            background-image: url('assets/icon.png'); 
+            background-size: cover;
+            display: inline-block;
+        }
+        h1 { margin-bottom: 10px; font-size: 2.5rem; }
+        p { margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6; color: #E0E0E0; }
+        
+        .download-btn {
+            display: inline-block;
+            background-color: #00E676;
+            color: #004D40;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(0, 230, 118, 0.4);
+        }
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 230, 118, 0.6);
+            background-color: #69F0AE;
+        }
+        .features {
+            margin-top: 40px;
+            text-align: left;
+        }
+        .feature-item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .feature-icon { margin-right: 10px; color: #00E676; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo"></div>
+        
+        <h1>DormFix</h1>
+        <p>The easiest way to manage dorm life. Report issues, pay rent, and contact security instantly.</p>
+
+        <a href="app-release.apk" class="download-btn" download>
+            Download for Android
+        </a>
+
+        <div class="features">
+            <div class="feature-item">
+                <span class="feature-icon">✔</span> Report Maintenance Issues
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">✔</span> Upload Payment Receipts
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">✔</span> Emergency Hotlines
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">✔</span> Real-time Status Updates
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
